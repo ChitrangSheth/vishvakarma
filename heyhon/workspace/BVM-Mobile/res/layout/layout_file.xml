@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bvm1" >
+        
+        <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:shadowColor="#0099FF"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="8"
+        android:text="BVM ENGINEERING"
+        android:textColor="#484848"/>
+        <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:text="&quot;Birla Vishvakarma Mahavidyalaya Engineering College was established in 1948 from donations made by the Birla Education Trust on the behest of Sardar Vallabhbhai Patel.&quot;"/>
+        <TextView
+        android:id="@+id/mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:text="Mission:"/>
+        
+        <TextView    
+        android:id="@+id/missons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:text="	&quot;Our Motto is Work is Worship and we consider education as a mission and not merely a profession.&quot;"/>
+        
+         <TextView
+        android:id="@+id/vis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:text="Vision:"/>
+        <TextView
+        android:id="@+id/vision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:text="	&quot;To commit for total quality of technical education incorporating human values. \n \nTo foster a culture of caring,trust and continious learning while meeting the expections of the students,employees,management and society. \n \nWe want BVM in top TEN Intitutes of the Nation&quot;"/>
+<TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="10dp"
+        android:typeface="normal"
+        android:text="Address: BVM Engineering College\nVallabh Vidyanagar  388 120. GUJARAT, INDIA.\nPh.: 91 2692 230104  (o)Fax: 91 2692 230762"/>
+</LinearLayout>
+
+    
+</ScrollView>

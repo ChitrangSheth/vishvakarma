@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#D8BFD8" >
+
+         <com.pkmmte.circularimageview.CircularImageView
+            android:id="@+id/imgNetwork"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/chit"
+            android:layout_gravity="center_horizontal"
+            app:border="true"
+            app:border_color="#FFFFFF"
+            app:border_width="4dp"
+            app:shadow="true" />
+		
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#708090"
+		    android:orientation="vertical" >
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#DBD7D2"
+		    android:layout_marginTop="20dp"
+		    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME "
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/fac_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+             />
+      </LinearLayout>
+      <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#DBD7D2"
+		    android:layout_marginTop="20dp"
+		    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESIGNATION "
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/designation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+             />
+      </LinearLayout>
+      <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#DBD7D2"
+		    android:layout_marginTop="20dp"
+		    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_qualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUALIFICATION"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/qualification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+             />
+      </LinearLayout>
+      <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#DBD7D2"
+		    android:layout_marginTop="20dp"
+		    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_area_specialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AREA OF SPECIALIZATION"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/area_of_specialization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+             />
+      </LinearLayout>
+      <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#DBD7D2"
+		    android:layout_marginTop="20dp"
+		    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EMAIL-ID "
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/email_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+             />
+      </LinearLayout>
+    </LinearLayout>
+    
+
+</ScrollView>
+</LinearLayout>

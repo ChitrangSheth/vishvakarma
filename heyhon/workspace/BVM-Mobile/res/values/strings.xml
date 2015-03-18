@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vishvakarma</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Gallery</item>
+        <item >Find us</item>
+        <item >News Feed</item>
+        <item >Faculty Info</item>
+        <item >More</item>
+    </string-array>
+    <string-array name="dept_names">
+        <item >Civil</item>
+        <item >Computer</item>
+        <item >Electrical</item>
+        <item >Electronics</item>
+        <item >Elec. and Tele Com.</item>
+        <item >Information Tech.</item>
+        <item >Mathematics</item>
+        <item >Mechanical</item>
+        <item >Production</item>
+        <item >Structural</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+	<string name="title_activity_item_one">ItemOne</string>
+    <string name="title_section1">General news</string>
+    <string name="title_section2">Circulars</string>
+    <string name="title_section3">Seminars</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="mission">Our motto is \&quot;Work is Worship\&quot; and we consider education as a mission and not merely a profession.</string>
+    <string name="vision">To commit for total quality of technical education incorporating human values.\n\nTo foster a culture of caring, trust and continuous learning while meeting the expectations of the students, employees, management and society.\n\nWe want BVM in top TEN institutes of the Nation. </string>
+    <string name="website_name">http://www.divyashah.in/site/</string>
+</resources>
